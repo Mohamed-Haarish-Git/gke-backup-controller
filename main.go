@@ -17,7 +17,7 @@ func main() {
 	failedBackups := []string{}
 	failedBackups = append(failedBackups,"backup-123")
 	failedBackups = append(failedBackups, "backup-456")
-	fmt.Println("Retries array : ", retries)
+	fmt.Println("Retries array in Given data : ", retries)
 	fmt.Println("Failed backups data :",failedBackups)
 	fmt.Println("First failed :",failedBackups[0])
 
